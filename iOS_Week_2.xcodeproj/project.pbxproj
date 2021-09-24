@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73BEA1326FD9E7600CC5086 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEA1226FD9E7600CC5086 /* MainViewController.swift */; };
+		A73BEA1526FDA1A300CC5086 /* MainViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEA1426FDA1A300CC5086 /* MainViewBuilder.swift */; };
+		A73BEA1726FDA2B500CC5086 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEA1626FDA2B500CC5086 /* BaseViewController.swift */; };
+		A768650426FC57F000367CA6 /* PermissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A768650326FC57F000367CA6 /* PermissionViewModel.swift */; };
+		A768650626FC7A2900367CA6 /* PermissionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A768650526FC7A2900367CA6 /* PermissionViewBuilder.swift */; };
 		A79736CB26FA6EF000E4D94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736CA26FA6EF000E4D94C /* AppDelegate.swift */; };
-		A79736CD26FA6EF000E4D94C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736CC26FA6EF000E4D94C /* SceneDelegate.swift */; };
-		A79736CF26FA6EF000E4D94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736CE26FA6EF000E4D94C /* ViewController.swift */; };
-		A79736D226FA6EF000E4D94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79736D026FA6EF000E4D94C /* Main.storyboard */; };
 		A79736D426FA6EF000E4D94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79736D326FA6EF000E4D94C /* Assets.xcassets */; };
 		A79736D726FA6EF000E4D94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79736D526FA6EF000E4D94C /* LaunchScreen.storyboard */; };
 		A79736E226FA6EF000E4D94C /* iOS_Week_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736E126FA6EF000E4D94C /* iOS_Week_2Tests.swift */; };
 		A79736ED26FA6EF100E4D94C /* iOS_Week_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736EC26FA6EF100E4D94C /* iOS_Week_2UITests.swift */; };
+		A797370126FA6F8E00E4D94C /* CameraPermissionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736FB26FA6F8E00E4D94C /* CameraPermissionProtocol.swift */; };
+		A797370226FA6F8E00E4D94C /* PermissionManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736FC26FA6F8E00E4D94C /* PermissionManagerFactory.swift */; };
+		A797370326FA6F8E00E4D94C /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736FD26FA6F8E00E4D94C /* CameraPermissionManager.swift */; };
+		A797370426FA6F8E00E4D94C /* PermissionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736FE26FA6F8E00E4D94C /* PermissionManagerProtocol.swift */; };
+		A797370526FA6F8E00E4D94C /* PhotosPermisionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79736FF26FA6F8E00E4D94C /* PhotosPermisionProtocol.swift */; };
+		A797370626FA6F8E00E4D94C /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797370026FA6F8E00E4D94C /* PhotosPermissionManager.swift */; };
+		A797370826FA704200E4D94C /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797370726FA704200E4D94C /* UIApplication+Extension.swift */; };
+		A797370E26FA70C000E4D94C /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797370D26FA70C000E4D94C /* PermissionViewController.swift */; };
+		A797371026FA70E900E4D94C /* PermissionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797370F26FA70E900E4D94C /* PermissionRequestView.swift */; };
+		A797371426FA718400E4D94C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797371226FA718400E4D94C /* BaseView.swift */; };
+		A797371526FA718400E4D94C /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797371326FA718400E4D94C /* GenericBaseView.swift */; };
+		A797371926FA71CB00E4D94C /* PermissionRequestViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797371826FA71CB00E4D94C /* PermissionRequestViewData.swift */; };
+		A797371D26FA77BE00E4D94C /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797371C26FA77BE00E4D94C /* GenericValueProtocol.swift */; };
+		A797371F26FA77F300E4D94C /* PermissionImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797371E26FA77F300E4D94C /* PermissionImages.swift */; };
+		A797372226FA78BB00E4D94C /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797372126FA78BB00E4D94C /* ActionButtonView.swift */; };
+		A797372426FA78C300E4D94C /* ActionButtonViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797372326FA78C300E4D94C /* ActionButtonViewData.swift */; };
+		A797372626FA793400E4D94C /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797372526FA793400E4D94C /* ActionButtonType.swift */; };
+		A797372826FA794B00E4D94C /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797372726FA794B00E4D94C /* ActionButtonTheme.swift */; };
+		A797372B26FA7F7200E4D94C /* ActionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797372A26FA7F7200E4D94C /* ActionComponent.swift */; };
+		A797372D26FA7F7900E4D94C /* ActionComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797372C26FA7F7900E4D94C /* ActionComponentData.swift */; };
+		A797373026FA809000E4D94C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797372F26FA809000E4D94C /* InfoView.swift */; };
+		A797373226FA809500E4D94C /* InfoViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797373126FA809500E4D94C /* InfoViewData.swift */; };
+		A797373526FA88F600E4D94C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797373426FA88F600E4D94C /* UIView+Extension.swift */; };
+		A797373F26FB882F00E4D94C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797373E26FB882F00E4D94C /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A73BEA1226FD9E7600CC5086 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A73BEA1426FDA1A300CC5086 /* MainViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewBuilder.swift; sourceTree = "<group>"; };
+		A73BEA1626FDA2B500CC5086 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A768650326FC57F000367CA6 /* PermissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewModel.swift; sourceTree = "<group>"; };
+		A768650526FC7A2900367CA6 /* PermissionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewBuilder.swift; sourceTree = "<group>"; };
 		A79736C726FA6EF000E4D94C /* iOS_Week_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Week_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79736CA26FA6EF000E4D94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A79736CC26FA6EF000E4D94C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A79736CE26FA6EF000E4D94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A79736D126FA6EF000E4D94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A79736D326FA6EF000E4D94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79736D626FA6EF000E4D94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A79736D826FA6EF000E4D94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +77,30 @@
 		A79736E826FA6EF100E4D94C /* iOS_Week_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Week_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79736EC26FA6EF100E4D94C /* iOS_Week_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Week_2UITests.swift; sourceTree = "<group>"; };
 		A79736EE26FA6EF100E4D94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79736FB26FA6F8E00E4D94C /* CameraPermissionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPermissionProtocol.swift; sourceTree = "<group>"; };
+		A79736FC26FA6F8E00E4D94C /* PermissionManagerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionManagerFactory.swift; sourceTree = "<group>"; };
+		A79736FD26FA6F8E00E4D94C /* CameraPermissionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
+		A79736FE26FA6F8E00E4D94C /* PermissionManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionManagerProtocol.swift; sourceTree = "<group>"; };
+		A79736FF26FA6F8E00E4D94C /* PhotosPermisionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPermisionProtocol.swift; sourceTree = "<group>"; };
+		A797370026FA6F8E00E4D94C /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
+		A797370726FA704200E4D94C /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		A797370D26FA70C000E4D94C /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		A797370F26FA70E900E4D94C /* PermissionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestView.swift; sourceTree = "<group>"; };
+		A797371226FA718400E4D94C /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A797371326FA718400E4D94C /* GenericBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
+		A797371826FA71CB00E4D94C /* PermissionRequestViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionRequestViewData.swift; sourceTree = "<group>"; };
+		A797371C26FA77BE00E4D94C /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		A797371E26FA77F300E4D94C /* PermissionImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionImages.swift; sourceTree = "<group>"; };
+		A797372126FA78BB00E4D94C /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		A797372326FA78C300E4D94C /* ActionButtonViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonViewData.swift; sourceTree = "<group>"; };
+		A797372526FA793400E4D94C /* ActionButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		A797372726FA794B00E4D94C /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		A797372A26FA7F7200E4D94C /* ActionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionComponent.swift; sourceTree = "<group>"; };
+		A797372C26FA7F7900E4D94C /* ActionComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionComponentData.swift; sourceTree = "<group>"; };
+		A797372F26FA809000E4D94C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A797373126FA809500E4D94C /* InfoViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewData.swift; sourceTree = "<group>"; };
+		A797373426FA88F600E4D94C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A797373E26FB882F00E4D94C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +128,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A768650226FC57DA00367CA6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A797373E26FB882F00E4D94C /* MainViewModel.swift */,
+				A73BEA1226FD9E7600CC5086 /* MainViewController.swift */,
+				A73BEA1426FDA1A300CC5086 /* MainViewBuilder.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		A79736BE26FA6EF000E4D94C = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +161,12 @@
 		A79736C926FA6EF000E4D94C /* iOS_Week_2 */ = {
 			isa = PBXGroup;
 			children = (
+				A797373D26FB882500E4D94C /* Views */,
+				A797371126FA70FD00E4D94C /* BaseComponents */,
+				A797370B26FA70AE00E4D94C /* Components */,
+				A797370926FA704300E4D94C /* Utilities */,
+				A79736FA26FA6F8100E4D94C /* Managers */,
 				A79736CA26FA6EF000E4D94C /* AppDelegate.swift */,
-				A79736CC26FA6EF000E4D94C /* SceneDelegate.swift */,
-				A79736CE26FA6EF000E4D94C /* ViewController.swift */,
-				A79736D026FA6EF000E4D94C /* Main.storyboard */,
 				A79736D326FA6EF000E4D94C /* Assets.xcassets */,
 				A79736D526FA6EF000E4D94C /* LaunchScreen.storyboard */,
 				A79736D826FA6EF000E4D94C /* Info.plist */,
@@ -126,6 +190,172 @@
 				A79736EE26FA6EF100E4D94C /* Info.plist */,
 			);
 			path = iOS_Week_2UITests;
+			sourceTree = "<group>";
+		};
+		A79736FA26FA6F8100E4D94C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A797373B26FB875400E4D94C /* Protocols */,
+				A797373A26FB874400E4D94C /* Builders */,
+				A797373926FB871800E4D94C /* Photos */,
+				A797373826FB871100E4D94C /* Camera */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A797370926FA704300E4D94C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A797371B26FA77B100E4D94C /* GenericProtocols */,
+				A797371A26FA779C00E4D94C /* PermissionImages */,
+				A797370A26FA704900E4D94C /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A797370A26FA704900E4D94C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A797373426FA88F600E4D94C /* UIView+Extension.swift */,
+				A797370726FA704200E4D94C /* UIApplication+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A797370B26FA70AE00E4D94C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A797372E26FA808000E4D94C /* InfoViewComponent */,
+				A797372926FA7F5400E4D94C /* ActionComponent */,
+				A797372026FA78AE00E4D94C /* ActionButton */,
+				A797371726FA71A100E4D94C /* PermissionRequestView */,
+				A797370C26FA70B200E4D94C /* PermissionView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A797370C26FA70B200E4D94C /* PermissionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PermissionView;
+			sourceTree = "<group>";
+		};
+		A797371126FA70FD00E4D94C /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A797371226FA718400E4D94C /* BaseView.swift */,
+				A797371326FA718400E4D94C /* GenericBaseView.swift */,
+				A73BEA1626FDA2B500CC5086 /* BaseViewController.swift */,
+			);
+			path = BaseComponents;
+			sourceTree = "<group>";
+		};
+		A797371626FA719B00E4D94C /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				A797370D26FA70C000E4D94C /* PermissionViewController.swift */,
+				A768650326FC57F000367CA6 /* PermissionViewModel.swift */,
+				A768650526FC7A2900367CA6 /* PermissionViewBuilder.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		A797371726FA71A100E4D94C /* PermissionRequestView */ = {
+			isa = PBXGroup;
+			children = (
+				A797370F26FA70E900E4D94C /* PermissionRequestView.swift */,
+				A797371826FA71CB00E4D94C /* PermissionRequestViewData.swift */,
+			);
+			path = PermissionRequestView;
+			sourceTree = "<group>";
+		};
+		A797371A26FA779C00E4D94C /* PermissionImages */ = {
+			isa = PBXGroup;
+			children = (
+				A797371E26FA77F300E4D94C /* PermissionImages.swift */,
+			);
+			path = PermissionImages;
+			sourceTree = "<group>";
+		};
+		A797371B26FA77B100E4D94C /* GenericProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				A797371C26FA77BE00E4D94C /* GenericValueProtocol.swift */,
+			);
+			path = GenericProtocols;
+			sourceTree = "<group>";
+		};
+		A797372026FA78AE00E4D94C /* ActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				A797372126FA78BB00E4D94C /* ActionButtonView.swift */,
+				A797372326FA78C300E4D94C /* ActionButtonViewData.swift */,
+				A797372526FA793400E4D94C /* ActionButtonType.swift */,
+				A797372726FA794B00E4D94C /* ActionButtonTheme.swift */,
+			);
+			path = ActionButton;
+			sourceTree = "<group>";
+		};
+		A797372926FA7F5400E4D94C /* ActionComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A797372A26FA7F7200E4D94C /* ActionComponent.swift */,
+				A797372C26FA7F7900E4D94C /* ActionComponentData.swift */,
+			);
+			path = ActionComponent;
+			sourceTree = "<group>";
+		};
+		A797372E26FA808000E4D94C /* InfoViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A797372F26FA809000E4D94C /* InfoView.swift */,
+				A797373126FA809500E4D94C /* InfoViewData.swift */,
+			);
+			path = InfoViewComponent;
+			sourceTree = "<group>";
+		};
+		A797373826FB871100E4D94C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A79736FD26FA6F8E00E4D94C /* CameraPermissionManager.swift */,
+				A79736FB26FA6F8E00E4D94C /* CameraPermissionProtocol.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A797373926FB871800E4D94C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				A79736FF26FA6F8E00E4D94C /* PhotosPermisionProtocol.swift */,
+				A797370026FA6F8E00E4D94C /* PhotosPermissionManager.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		A797373A26FB874400E4D94C /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				A79736FC26FA6F8E00E4D94C /* PermissionManagerFactory.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		A797373B26FB875400E4D94C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A79736FE26FA6F8E00E4D94C /* PermissionManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A797373D26FB882500E4D94C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A768650226FC57DA00367CA6 /* Main */,
+				A797371626FA719B00E4D94C /* Permission */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +463,6 @@
 			files = (
 				A79736D726FA6EF000E4D94C /* LaunchScreen.storyboard in Resources */,
 				A79736D426FA6EF000E4D94C /* Assets.xcassets in Resources */,
-				A79736D226FA6EF000E4D94C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +487,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79736CF26FA6EF000E4D94C /* ViewController.swift in Sources */,
+				A797370426FA6F8E00E4D94C /* PermissionManagerProtocol.swift in Sources */,
+				A797371D26FA77BE00E4D94C /* GenericValueProtocol.swift in Sources */,
+				A768650626FC7A2900367CA6 /* PermissionViewBuilder.swift in Sources */,
+				A797371F26FA77F300E4D94C /* PermissionImages.swift in Sources */,
+				A768650426FC57F000367CA6 /* PermissionViewModel.swift in Sources */,
+				A73BEA1726FDA2B500CC5086 /* BaseViewController.swift in Sources */,
+				A797371426FA718400E4D94C /* BaseView.swift in Sources */,
+				A797371926FA71CB00E4D94C /* PermissionRequestViewData.swift in Sources */,
+				A797372226FA78BB00E4D94C /* ActionButtonView.swift in Sources */,
+				A797372826FA794B00E4D94C /* ActionButtonTheme.swift in Sources */,
+				A797370126FA6F8E00E4D94C /* CameraPermissionProtocol.swift in Sources */,
+				A797371026FA70E900E4D94C /* PermissionRequestView.swift in Sources */,
+				A797372426FA78C300E4D94C /* ActionButtonViewData.swift in Sources */,
+				A73BEA1326FD9E7600CC5086 /* MainViewController.swift in Sources */,
 				A79736CB26FA6EF000E4D94C /* AppDelegate.swift in Sources */,
-				A79736CD26FA6EF000E4D94C /* SceneDelegate.swift in Sources */,
+				A797370326FA6F8E00E4D94C /* CameraPermissionManager.swift in Sources */,
+				A797371526FA718400E4D94C /* GenericBaseView.swift in Sources */,
+				A797373526FA88F600E4D94C /* UIView+Extension.swift in Sources */,
+				A797372626FA793400E4D94C /* ActionButtonType.swift in Sources */,
+				A797372D26FA7F7900E4D94C /* ActionComponentData.swift in Sources */,
+				A797373F26FB882F00E4D94C /* MainViewModel.swift in Sources */,
+				A797373026FA809000E4D94C /* InfoView.swift in Sources */,
+				A73BEA1526FDA1A300CC5086 /* MainViewBuilder.swift in Sources */,
+				A797372B26FA7F7200E4D94C /* ActionComponent.swift in Sources */,
+				A797370626FA6F8E00E4D94C /* PhotosPermissionManager.swift in Sources */,
+				A797370E26FA70C000E4D94C /* PermissionViewController.swift in Sources */,
+				A797370526FA6F8E00E4D94C /* PhotosPermisionProtocol.swift in Sources */,
+				A797373226FA809500E4D94C /* InfoViewData.swift in Sources */,
+				A797370826FA704200E4D94C /* UIApplication+Extension.swift in Sources */,
+				A797370226FA6F8E00E4D94C /* PermissionManagerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +552,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A79736D026FA6EF000E4D94C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A79736D126FA6EF000E4D94C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A79736D526FA6EF000E4D94C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
